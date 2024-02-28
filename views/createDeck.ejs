@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="http://localhost:3000/">Home</a>
+                </li>
+                <li>
+                    <a href="http://localhost:3000/allDeck">All Decks</a>
+                </li>
+                <li>
+                    <a href="http://localhost:3000/createDeck">Create Deck</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header">
+            <h1> Create Deck </h1>
+            <form method="POST" action="/allDeck">
+                <label for="name"> Name of Deck: </label>
+                <input type="text" id="name" name="name">
+                <label for="description"> Description: </label>
+                <input type="text" id="description" name="description">
+                <label for="price"> Price (USD): </label>
+                <input type="number" id="price" name="price">
+                <label for="stock"> Total In-Stock: </label>
+                <input type="number" id="stock" name="stock">
+                <button class="submit-button">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

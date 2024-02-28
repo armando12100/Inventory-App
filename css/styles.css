@@ -1,0 +1,129 @@
+@font-face {
+    font-family: disneyClone;
+    src: url(mouse.ttf);
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10%;
+}
+
+li {
+    list-style-type: none;
+    font-family: disneyClone;
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: lightskyblue;
+    text-decoration: underline;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 80%;
+    font-family: disneyClone;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: black;
+    min-width: 40vw;
+    font-size: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+input {
+    margin-bottom: 1.5rem;
+}
+
+.submit-button {
+    font-family: disneyClone;
+    background-color: rgb(79, 137, 156);
+    color: white;
+    font-size: 2rem;
+    border-radius: .3rem;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: rgb(79, 137, 156);
+    cursor: pointer;
+}
+
+.deck-container {
+    display: flex;
+}
+
+.list-container {
+    background-color: rgb(79, 137, 156);
+    color: white;
+    border: 2px solid black;
+    border-radius: .3rem;
+    padding-right: 1.8rem;
+    margin-right: 2rem;
+    margin-left: 3rem;
+}
+
+.list-container:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(79, 137, 156);
+    text-decoration: none;
+}
+
+.list-container > li {
+    padding-bottom: .3rem;
+    text-decoration: none;
+}
+
+.edit-link {
+    text-decoration: none
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.1rem;
+}
+
+.delete-button {
+    margin-right: .2rem;
+    font-family: disneyClone;
+    background-color: rgb(79, 137, 156);
+    color: white;
+    border-radius: .3rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 3rem;
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+.delete-button:hover {
+    background-color: white;
+    color: rgb(79, 137, 156);
+    cursor: pointer;
+    text-decoration: none;
+}

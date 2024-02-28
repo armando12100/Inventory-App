@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="http://localhost:3000/">Home</a>
+                </li>
+                <li>
+                    <a href="http://localhost:3000/allDeck">All Decks</a>
+                </li>
+                <li>
+                    <a href="http://localhost:3000/createDeck">Create Deck</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header">
+            <h1> Edit Page </h1>
+            <div class="deck-container">
+                    <a href="http://localhost:3000/allDeck/editDeck/<%=decks.id%>">
+                        <ul class="list-container"> 
+                            <li> <%= decks.name %> </li>
+                            <li> <%= decks.description %> </li> 
+                            <li> <%= decks.price %> </li> 
+                            <li> <%= decks.stock %> </li> 
+                        </ul>
+                    </a>
+            </div>
+            <div class="button-container">
+                <a class="delete-button" href="/allDeck/delete/<%=decks.id%>">Delete</a>
+            </div>
+            <form method="POST" action="/allDeck/editDeck/<%=decks.id%>">
+                <label for="name"> Name of Deck: </label>
+                <input type="text" id="name" name="name" value="<%=decks.name%>">
+                <label for="description"> Description: </label>
+                <input type="text" id="description" name="description" value="<%=decks.description%>">
+                <label for="price"> Price (USD): </label>
+                <input type="number" id="price" name="price" value="<%=decks.price%>">
+                <label for="stock"> Total In-Stock: </label>
+                <input type="number" id="stock" name="stock" value="<%=decks.stock%>">
+                <button class="submit-button">Update</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
