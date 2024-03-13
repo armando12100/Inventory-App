@@ -1,8 +1,8 @@
-const express = require('express');
-const { ObjectId } = require('mongodb');
+
+import express from "express";
+import { ObjectId } from 'mongodb';
 const router = express.Router();
-const mongoose = require('mongoose');
-const { json } = require('node:stream/consumers');
+import mongoose from "mongoose";
 
 const deckSchema = new mongoose.Schema({
     name: String,
@@ -83,4 +83,4 @@ router.post('/', (req, res, next) => {
     res.redirect('/allDeck');
 });
 
-module.exports = router
+export default router
