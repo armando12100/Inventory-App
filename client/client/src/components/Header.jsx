@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 const Header = () => {
 
@@ -13,7 +13,7 @@ const Header = () => {
                 <p className='font-bold pr-2'>Cards</p>
                 <p className='font-bold pr-2'>Deck Lists</p>
                 <p className='font-bold pr-2'>Build Decks</p>
-                <p className='font-bold pr-2'>Sign in</p>
+                <p className='font-bold pr-4'>Sign in</p>
             </div>
             <div className='visible sm:hidden'>
                 <div className='dropdown text-white cursor-pointer pr-4'>

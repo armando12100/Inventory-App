@@ -1,10 +1,9 @@
-import React from 'react'
 import InklandsPic from "../images/Inklands.jpg"
 import MetaDeckCard from '../components/MetaDeckCard'
 
 const Home = () => {
   return (
-    <div className='bg-indigo-950 text-white pt-10 flex flex-col justify-center'>
+    <div className='bg-indigo-950 text-white flex flex-col justify-center items-center'>
       <div className='relative'>
         <img src={InklandsPic} alt="" className='min-h-64 object-cover opacity-30' />
         <div className='absolute top-1/3 pl-14'>
@@ -15,31 +14,32 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className='pt-10 pl-8'>
-        <p className='font-bold text-xl'>Current Best Decks &#40;Upated March 13, 2024 &#41;</p>
+      <div className='mt-10 w-1/2 bg-indigo-950 flex flex-col text-white justify-center items-center border-8 border-white rounded-lg border-double '>
+        <p className='font-bold text-xl pt-2'>Current Best Decks &#40;Upated March 13, 2024 &#41;</p>
         <ul className='pt-4'>
         <h1>S-Tier</h1>
-          <ul className='pt-2'>
-            <li className='pb-2'>1. Amethyst/Ruby Location Control</li>
-            <li className='pb-2'>2. Sapphire/Steel Ramp Wheel</li>
-            <li className='pb-2'>3. Amethyst/Steel Jafar Wheel</li>
-            <li className='pb-2'>4. Emerald/Steel Control</li>
+          <ul className='pt-2 w-96'>
+            <li className='pb-2 pt-2 border-b-2 border-gray-300'>1. Amethyst/Ruby Location Control</li>
+            <li className='pb-2 pt-2 border-b-2 border-gray-300'>2. Sapphire/Steel Ramp Wheel</li>
+            <li className='pb-2 pt-2 border-b-2 border-gray-300'>3. Amethyst/Steel Jafar Wheel</li>
+            <li className='pb-2 pt-2 border-b-2 border-gray-300'>4. Emerald/Steel Control</li>
           </ul>
-        <h1>A-Tier</h1>
-        <ul className='pt-2'>
-          <li className='pb-2'>1. Amber/Steel Steelsongs</li>
-          <li className='pb-2'>2. Emerald/Steel Discard</li>
-          <li className='pb-2'>3. Ametheyst/Emeral Tempo</li>
-          <li className='pb-2'>4. Ruby/Sapphire Pawpsicle Control</li>
+        <h1 className="pt-2">A-Tier</h1>
+        <ul className='pt-2 border-gray-300 w-96'>
+          <li className='pb-2 pt-2 border-b-2 border-gray-300'>1. Amber/Steel Steelsongs</li>
+          <li className='pb-2 pt-2 border-b-2 border-gray-300'>2. Emerald/Steel Discard</li>
+          <li className='pb-2 pt-2 border-b-2 border-gray-300'>3. Ametheyst/Emeral Tempo</li>
+          <li className='pb-2 pt-2 border-b-2 border-gray-300'>4. Ruby/Sapphire Pawpsicle Control</li>
         </ul>
-        <h1>B-Tier</h1>
-          <ul className='pt-2'>
-            <li className='pb-2'>1. Amber/Amethyst Hyper Aggro</li>
-            <li className='pb-2'>2. Ruby/Steel Pirates</li>
-            <li className='pb-2'>3. Amber/Ruby Mufasa</li>
+        <h1 className="pt-2">B-Tier</h1>
+          <ul className='pt-2 w-96'>
+            <li className='pb-2 pt-2 border-b-2 border-gray-300'>1. Amber/Amethyst Hyper Aggro</li>
+            <li className='pb-2 pt-2 border-b-2 border-gray-300'>2. Ruby/Steel Pirates</li>
+            <li className='pb-2 pt-2'>3. Amber/Ruby Mufasa</li>
           </ul>
         </ul>
       </div>
+      <div className="pt-10"></div>
       <div>
         <MetaDeckCard />
       </div>
