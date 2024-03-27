@@ -1,4 +1,3 @@
-import React from "react";
 import DeckGuideCard from "../components/DeckGuideCard";
 import CardData from "../data/MetaDeckCardData";
 
