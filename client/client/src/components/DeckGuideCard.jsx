@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import DeckDetails from "./DeckDetails";
+
 // eslint-disable-next-line react/prop-types
 const DeckGuideCard = ({ title, image, description, code, pageId }) => {
   return (
@@ -18,8 +18,8 @@ const DeckGuideCard = ({ title, image, description, code, pageId }) => {
       <p className="py-3 pl-3">{description}</p>
       {image ? (
         <Link to={`/decklists/${pageId}`}>
-          <button className="bg-indigo-950 border-2 border-solid">
-            To Deck Guide
+          <button className="bg-indigo-950 border-2 text-white rounded-lg border-solid border-black ml-4 p-2 font-bold hover:cursor-pointer hover:bg-white hover:text-black">
+            {title} Deck Guide
           </button>
         </Link>
       ) : (

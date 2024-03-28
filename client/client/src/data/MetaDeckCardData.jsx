@@ -43,6 +43,7 @@ export default [
         deckTitle: "Amber/Steel SteelSongs",
         image: SteelSongs,
         id: 4,
+        pageId: 4,
         code: "https://dreamborn.ink/decks/sDSWJoWS1ywsa7SKanju",
         description: 
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, consequuntur quis omnis, quidem ipsum repellat corrupti fuga earum vero numquam, ipsam perspiciatis possimus. Dolore minima incidunt assumenda eos quasi omnis."
@@ -55,6 +56,7 @@ export default [
         deckTitle: "Emerald/Steel Discard",
         image: Emerald_Steel_Discard,
         id: 6,
+        pageId: 6,
         code: "https://dreamborn.ink/decks/QUFGSTdQtWRoMFiJWe4T",
         description: 
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, consequuntur quis omnis, quidem ipsum repellat corrupti fuga earum vero numquam, ipsam perspiciatis possimus. Dolore minima incidunt assumenda eos quasi omnis."
@@ -63,6 +65,7 @@ export default [
         deckTitle: "Emerald/Amethyst Tempo",
         image: Emerald_Amethyst,
         id: 7,
+        pageId: 7,
         code: "https://dreamborn.ink/decks/kXuJIy4vdP6EBcpQZrQA",
         description: 
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, consequuntur quis omnis, quidem ipsum repellat corrupti fuga earum vero numquam, ipsam perspiciatis possimus. Dolore minima incidunt assumenda eos quasi omnis."
@@ -71,6 +74,7 @@ export default [
         deckTitle: "Ruby/Sapphire Pawpsicle Control",
         image: Pawpsicle,
         id: 8,
+        pageId: 8,
         code: "https://dreamborn.ink/decks/4Ee5BbJ2LYSCFINq28Cy",
         description: 
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, consequuntur quis omnis, quidem ipsum repellat corrupti fuga earum vero numquam, ipsam perspiciatis possimus. Dolore minima incidunt assumenda eos quasi omnis."
@@ -83,6 +87,7 @@ export default [
         deckTitle: "Amber/Ruby Mufasa",
         image: Mufasa,
         id: 10,
+        pageId: 10,
         code: "https://dreamborn.ink/decks/hwp9mf79XCqZbO1OKDma",
         description: 
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, consequuntur quis omnis, quidem ipsum repellat corrupti fuga earum vero numquam, ipsam perspiciatis possimus. Dolore minima incidunt assumenda eos quasi omnis."
@@ -91,6 +96,7 @@ export default [
         deckTitle: "Ruby/Steel Pirates",
         image: Pirates,
         id: 11,
+        pageId: 11,
         code: "https://dreamborn.ink/decks/MgcDbTYCBsQ0lA6IGGHF",
         description: 
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, consequuntur quis omnis, quidem ipsum repellat corrupti fuga earum vero numquam, ipsam perspiciatis possimus. Dolore minima incidunt assumenda eos quasi omnis."
@@ -99,6 +105,7 @@ export default [
         deckTitle: "Jafar Wheel",
         image: Jafar,
         id: 12,
+        pageId: 12,
         code: "https://dreamborn.ink/decks/KuqTTv7wBzQUgaM2atWE",
         description: 
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, consequuntur quis omnis, quidem ipsum repellat corrupti fuga earum vero numquam, ipsam perspiciatis possimus. Dolore minima incidunt assumenda eos quasi omnis."
