@@ -12,10 +12,12 @@ import Pirates from "../images/Ruby_Steel_Pirates.png"
 export default [
     {
         deckTitle: "Best Decks",
+        id: 0,
     },
     {
         deckTitle: "Amethyst/Ruby Location Control",
         image: Ruby_Amethyst,
+        pageId: 1,
         id: 1,
         code: "https://dreamborn.ink/decks/MoK12DW0GesLM60afoQD",
         description: 
@@ -24,6 +26,7 @@ export default [
     {
         deckTitle: "Sapphire/Steel Ramp",
         image: Sapphire_Steel,
+        pageId: 2,
         id: 2,
         description: 
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, consequuntur quis omnis, quidem ipsum repellat corrupti fuga earum vero numquam, ipsam perspiciatis possimus. Dolore minima incidunt assumenda eos quasi omnis."
@@ -31,6 +34,7 @@ export default [
     {
         deckTitle: "Ruby/Sapphire",
         image: Ruby_Sapphire,
+        pageId: 3,
         id: 3,
         description: 
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, consequuntur quis omnis, quidem ipsum repellat corrupti fuga earum vero numquam, ipsam perspiciatis possimus. Dolore minima incidunt assumenda eos quasi omnis."
@@ -45,11 +49,12 @@ export default [
     },
     {
         deckTitle: "Great Decks",
+        id: 5,
     },
     {
         deckTitle: "Emerald/Steel Discard",
         image: Emerald_Steel_Discard,
-        id: 5,
+        id: 6,
         code: "https://dreamborn.ink/decks/QUFGSTdQtWRoMFiJWe4T",
         description: 
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, consequuntur quis omnis, quidem ipsum repellat corrupti fuga earum vero numquam, ipsam perspiciatis possimus. Dolore minima incidunt assumenda eos quasi omnis."
@@ -57,7 +62,7 @@ export default [
     {
         deckTitle: "Emerald/Amethyst Tempo",
         image: Emerald_Amethyst,
-        id: 6,
+        id: 7,
         code: "https://dreamborn.ink/decks/kXuJIy4vdP6EBcpQZrQA",
         description: 
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, consequuntur quis omnis, quidem ipsum repellat corrupti fuga earum vero numquam, ipsam perspiciatis possimus. Dolore minima incidunt assumenda eos quasi omnis."
@@ -65,18 +70,19 @@ export default [
     {
         deckTitle: "Ruby/Sapphire Pawpsicle Control",
         image: Pawpsicle,
-        id: 7,
+        id: 8,
         code: "https://dreamborn.ink/decks/4Ee5BbJ2LYSCFINq28Cy",
         description: 
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, consequuntur quis omnis, quidem ipsum repellat corrupti fuga earum vero numquam, ipsam perspiciatis possimus. Dolore minima incidunt assumenda eos quasi omnis."
     },
     {
         deckTitle: "Good Decks",
+        id: 9
     },
     {
         deckTitle: "Amber/Ruby Mufasa",
         image: Mufasa,
-        id: 8,
+        id: 10,
         code: "https://dreamborn.ink/decks/hwp9mf79XCqZbO1OKDma",
         description: 
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, consequuntur quis omnis, quidem ipsum repellat corrupti fuga earum vero numquam, ipsam perspiciatis possimus. Dolore minima incidunt assumenda eos quasi omnis."
@@ -84,7 +90,7 @@ export default [
     {
         deckTitle: "Ruby/Steel Pirates",
         image: Pirates,
-        id: 9,
+        id: 11,
         code: "https://dreamborn.ink/decks/MgcDbTYCBsQ0lA6IGGHF",
         description: 
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, consequuntur quis omnis, quidem ipsum repellat corrupti fuga earum vero numquam, ipsam perspiciatis possimus. Dolore minima incidunt assumenda eos quasi omnis."
@@ -92,7 +98,7 @@ export default [
     {
         deckTitle: "Jafar Wheel",
         image: Jafar,
-        id: 10,
+        id: 12,
         code: "https://dreamborn.ink/decks/KuqTTv7wBzQUgaM2atWE",
         description: 
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, consequuntur quis omnis, quidem ipsum repellat corrupti fuga earum vero numquam, ipsam perspiciatis possimus. Dolore minima incidunt assumenda eos quasi omnis."

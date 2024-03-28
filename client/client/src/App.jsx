@@ -7,6 +7,7 @@ import EditDecks from './pages/EditDecks'
 import Cards from './pages/Cards'
 import MetaReport from './pages/MetaReport'
 import SignIn from './pages/SignIn'
+import DeckDetails from './components/DeckDetails'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/cards' element={<Cards />} />
         <Route path='/metareport' element={<MetaReport />} />
         <Route path='/signin' element={<SignIn />} />
+        <Route path='/decklists/:deckId' element={<DeckDetails />} />
       </Routes>
     </>
   )
