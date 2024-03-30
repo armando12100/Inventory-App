@@ -21,8 +21,15 @@ export default [
         id: 1,
         code: "https://dreamborn.ink/decks/MoK12DW0GesLM60afoQD",
         youtube: "Y5k3qiO17nc",
+        gradientStart: "from-fuchsia-900",
+        gradientEnd: "to-rose-600",
         description: 
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, consequuntur quis omnis, quidem ipsum repellat corrupti fuga earum vero numquam, ipsam perspiciatis possimus. Dolore minima incidunt assumenda eos quasi omnis."
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, consequuntur quis omnis, quidem ipsum repellat corrupti fuga earum vero numquam, ipsam perspiciatis possimus. Dolore minima incidunt assumenda eos quasi omnis.",
+        general: "Establish early board control with the Merlin and Mim packages of cards. Turn 5 Maui come's online which can challenge most cards in the game. Turn 6 you can start dropping either Madame Medusa or Lady Tremaine to take out pesky characters. If this still isn't enough, Be Prepared can wipe out a full board on turn 7. You also have Dragon Fire's and Maleficent's to take out any additonal cards. ",
+        mulliganPlay: "Look for early game drops such as Chernabog's Followers, Kuzco, Snake & Fox Mim's to establish early board control. You can always mulligan Be Prepared and Medusa as they'll likely clog your hand, especially if you draw into more copies.",
+        mulliganDraw:"Same advice for on the play except you want to replace Chernabog's for Rafiki. Rafiki can help to stabilize the board as he can challenge every 1 drop in the game and most 2 drops. This is especially important in the aggro matchup as he can sometimes 2 for 1 against cards like Lilo & Maleficent.",
+        weaknesses: "The deck can lose to aggressive aggro. This is why it's important to mulligan right in these matchups. The most common aggro colors are Emerald/Amethyst and Amber/Amethyst. Never keep The Queen's Castle in your opening hand in the aggro matchup as you'll likely fall to far behind to play it early. It's more important to take control of the board with your Rafiki's, Mim and Merlin packages.",
+        tip1:"You can keep bouncing back Merlin Goat with Fox/Snake Mim for extra lore. Make sure to quest or challenge with Goat first before the bounce. Late game you can win just by sequencing your Goat/Bounce plays correctly."
     },
     {
         deckTitle: "Sapphire/Steel Ramp",
